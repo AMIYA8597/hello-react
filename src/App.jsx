@@ -3,16 +3,15 @@ import "./App.css";
 // import Product from "./Product";
 import ProductTab from "./ProductTab";
 
-// function Description() {
 
-//   return <h1>
-//     OK start Description
-//   </h1>
-//   }
 
 function App() {
   return (
+    <>
+    <h2>Blockbuster Deals | Shop now</h2>
     <ProductTab/>
+    </>
+  
   );
 
   // return (
@@ -29,5 +28,4 @@ function App() {
   // )
 }
 
-// export default Title
 export default App;
