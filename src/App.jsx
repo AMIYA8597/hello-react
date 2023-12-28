@@ -3,15 +3,12 @@ import "./App.css";
 // import Product from "./Product";
 import ProductTab from "./ProductTab";
 
-
-
 function App() {
   return (
     <>
-    <h2>Blockbuster Deals | Shop now</h2>
-    <ProductTab/>
+      <h2>Blockbuster Deals | Shop now</h2>
+      <ProductTab />
     </>
-  
   );
 
   // return (
