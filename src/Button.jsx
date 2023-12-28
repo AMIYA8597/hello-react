@@ -3,8 +3,9 @@ function handleClick() {
   console.log("how r u!");
 }
 
-function handleMouseOver() {
+function handleMouseOver(event) {
   console.log("tell me your name");
+  console.log(event);
 }
 function handleDoubleClicker() {
   console.log("you double clicked");
